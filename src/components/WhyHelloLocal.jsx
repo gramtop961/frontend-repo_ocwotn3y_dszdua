@@ -40,7 +40,7 @@ export default function WhyHelloLocal() {
               transition={{ delay: idx * 0.1 }}
               className="rounded-2xl p-6 bg-white/5 border border-white/10 backdrop-blur hover:bg-white/7 transition"
             >
-              <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-fuchsia-500 to-cyan-500 flex items-center justify-center text-white shadow-lg shadow-fuchsia-500/30">
+              <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-orange-500 to-amber-400 flex items-center justify-center text-white shadow-lg shadow-orange-500/30">
                 <it.icon className="h-6 w-6" />
               </div>
               <h3 className="mt-4 text-xl font-semibold text-white">{it.title}</h3>

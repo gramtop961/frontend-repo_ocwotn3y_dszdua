@@ -9,9 +9,9 @@ const phoneScreens = [
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-indigo-600/20 via-transparent to-transparent pointer-events-none" />
-      <div className="absolute -top-40 -right-40 h-96 w-96 rounded-full bg-fuchsia-500/30 blur-3xl" />
-      <div className="absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-cyan-400/30 blur-3xl" />
+      <div className="absolute inset-0 bg-gradient-to-b from-orange-600/20 via-transparent to-transparent pointer-events-none" />
+      <div className="absolute -top-40 -right-40 h-96 w-96 rounded-full bg-orange-500/30 blur-3xl" />
+      <div className="absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-amber-400/30 blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-20 pb-10 md:pt-28 md:pb-16">
         <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -23,12 +23,12 @@ export default function Hero() {
               transition={{ duration: 0.6 }}
             >
               <span className="inline-flex items-center gap-2 rounded-full bg-white/10 border border-white/20 px-3 py-1 text-sm text-white/90 backdrop-blur">
-                <Rocket className="h-4 w-4 text-white" />
+                <Rocket className="h-4 w-4 text-orange-300" />
                 Discover your city, instantly
               </span>
               <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white">
                 HelloLocal connects you with the best nearby
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-400 to-cyan-400"> businesses</span>, deals, and events
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-amber-300"> businesses</span>, deals, and events
               </h1>
               <p className="mt-5 text-lg text-white/80 max-w-xl mx-auto md:mx-0">
                 Personalized picks, verified reviews, and instant booking — all in one sleek app built for your city.
@@ -36,7 +36,7 @@ export default function Hero() {
               <div className="mt-6 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-start justify-center">
                 <a
                   href="#signup"
-                  className="inline-flex justify-center rounded-xl bg-white text-gray-900 px-5 py-3 font-semibold shadow-lg shadow-fuchsia-500/20 hover:shadow-fuchsia-500/40 transition"
+                  className="inline-flex justify-center rounded-xl bg-orange-500 text-white px-5 py-3 font-semibold shadow-lg shadow-orange-500/30 hover:bg-orange-600 transition"
                 >
                   Join the waitlist
                 </a>
@@ -44,7 +44,7 @@ export default function Hero() {
                   href="#features"
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-white/10 border border-white/20 text-white px-5 py-3 font-semibold hover:bg-white/15 transition"
                 >
-                  <MapPin className="h-5 w-5" /> Explore features
+                  <MapPin className="h-5 w-5 text-orange-300" /> Explore features
                 </a>
               </div>
             </motion.div>
@@ -58,8 +58,8 @@ export default function Hero() {
               viewport={{ once: true }}
               transition={{ delay: 0.1, duration: 0.7 }}
             >
-              <div className="absolute inset-0 bg-gradient-to-tr from-fuchsia-500/20 to-cyan-500/20 rounded-3xl blur-2xl" />
-              <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-fuchsia-500/40 to-cyan-500/40 opacity-60" />
+              <div className="absolute inset-0 bg-gradient-to-tr from-orange-500/20 to-amber-400/20 rounded-3xl blur-2xl" />
+              <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-orange-500/40 to-amber-400/40 opacity-60" />
               <div className="relative grid grid-cols-2 gap-4 p-4">
                 {phoneScreens.map((src, i) => (
                   <motion.div

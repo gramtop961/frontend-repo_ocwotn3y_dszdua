@@ -54,7 +54,7 @@ export default function FeaturesShowcase() {
               onClick={() => setActive(t.key)}
               className={`inline-flex items-center gap-2 rounded-full px-4 py-2 border transition ${
                 active === t.key
-                  ? "bg-white text-gray-900 border-white"
+                  ? "bg-orange-500 text-white border-orange-500"
                   : "bg-white/5 text-white border-white/10 hover:bg-white/10"
               }`}
             >
